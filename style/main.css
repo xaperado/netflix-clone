@@ -1,0 +1,84 @@
+:root {
+    --vermelho:#E50914;
+    --preto: #141414;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.logo {
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+}
+
+header nav a {
+    color: #aaa;
+    text-decoration: none;
+    margin-right: 10px;
+}
+header nav a:hover {
+    color: #fff;
+}
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),url('/img/twd.jpg');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.filme-principal .descricao {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    
+}
+.titulo {
+    font-size: 40px;
+    display: block;
+    margin-top: 15%;
+}
+.botao {
+    background-color: rgba(0,0,0,.50) ;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin-right: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.5s ease all;
+}
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+.container-principal {
+    margin-left: 20px;
+    width: 70%;
+}
+.carrosel-filmes {
+    margin-top: 5px;
+}
