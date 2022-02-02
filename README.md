@@ -1,1 +1,2 @@
-# netflix-clone
+# Criação de um clone da Netflix
+# Bootcamp Inter
